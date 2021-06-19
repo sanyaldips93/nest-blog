@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { Body, Controller, Post, ValidationPipe } from '@nestjs/common';
-import { LoginDto, RegisterDto } from 'src/auth/dto/user.dto';
+import { LoginDto, RegisterDto } from 'src/dto/user.dto';
 import { AuthService } from './auth.service';
 
 @Controller('users')
